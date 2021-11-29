@@ -1,0 +1,62 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 30px;
+    font-size: 17px;
+    font-weight:500;
+    padding: 8px;
+    background-color: rgb(166, 185, 247);
+}
+
+.container{
+    border: 1px gold solid;
+    background-color: rgb(197, 231, 252);
+    padding: 20px;
+    border-radius: 8px;
+
+
+}
+.main{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="comment"],
+
+select,
+textarea{
+background-color: azure;
+width: 100%;
+padding: 20px;
+
+border: 1px gray solid;
+border-radius: 4px;
+}
+
+.align input[type="checkbox"]{
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 300px;
+
+}
+.align{
+    padding-left: 100px;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: #fc4040;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+    border: white;
+}
+input[type="submit"]:hover{
+    background-color: greenyellow;
+}

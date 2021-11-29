@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Information </title>
+        <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body >
+
+<!--This is First section of Heading-->
+
+<div class="container">
+<div>
+    <h1 class="main"><pre>Student Information</pre> </h1>
+<hr>
+</div>
+
+
+<!--Section Ended-->
+<!--Form Started Here-->
+<div >
+
+    <form>
+
+    <label for="Name">First Name:</label>
+        <input type="text" placeholder="John" name="John" required autofocus autocomplete="on" size=35 ><br><br>
+    
+    <label>Second Name:</label>
+       <input type="text" placeholder="stives" name="steves" required autofocus size="33" ><br><br>
+    
+    <label for="Batch">Your Batch?</label>
+        <select name = "Batch"><option>
+            <option value=1 >F16
+            <option value=2 >F17
+            <option value=3 >F18
+            <option value=4 >F19
+        </select>
+      </br></br>
+
+      <label for="Section">Your Section?</label>
+      <fieldset>
+     
+          <input type="radio" name = "Section">Morning
+          <input type="radio" name = "Section" >Afternoon
+          <br>
+        </fieldset>
+          <br>
+          <fieldset>
+        
+          <label for = "degree">Your Degree? </label>
+          <input type="radio" name = "degree">CS
+          <input type="radio" name = "degree">SE
+          <input type="radio" name = "degree">IT<br>
+          </fieldset>
+          <br>
+          <label for="gpa">CGPA?</label>
+          <input type="text" name="gpa" placeholder="exp: 3.10" required size="20"><br><br>
+
+          <label for="email">Your email</label>
+          <input type="email" placeholder="email@example.com" name="email" required autofocus size="32"><br> <br>
+
+          <label for= "post">Applying for?</label><br>
+          <div class="align">
+          <input type="checkbox" name="Content Writer" size="1000px">Content Writer<br>
+          <input type="checkbox" name "Photographer">Photographer</br>
+          <input type="checkbox" name = "Marketing Manager">Marketing Manager<br>
+          <input type="checkbox" name = "Graphic">Graphic Designer <br>
+          <input type="checkbox" name="abc">Social Media Manager<br>
+          <input type="checkbox" name = "abd">Logistics</br></br>
+        </div>
+
+    <label for="comment">Do you have any previous exprience related to this role?</label><br>
+          <textarea name="comment" placeholder="Optional" rows="4" cols="55" size="10"></textarea><br>
+    
+          <label for="comment">Why are you Applying to Developer Student club-Pucit?</label><br>
+          <textarea name="comment" placeholder="Optional"  rows="4" cols="55" size="10" required></textarea><br><br>
+    
+      <label for="Phone">Phone Number </label>
+          <input type="tel" name ="phone" placeholder="03xx-xxxxxxx" required><br><br>
+
+          <input type="submit" value="Submit" size="200">
+    </form>
+
+</div>
+</div>
+</body>
+</html>

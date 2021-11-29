@@ -1,0 +1,62 @@
+body{
+    background-color: azure;
+    margin: auto;
+}
+header{
+    background-color:#ffc14d;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    text-align: center;
+  
+}
+h1 {
+    text-shadow:1px 2px 2px white ;
+    size: 200px;
+    font-size: 80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+
+
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+
+}
+
+nav a:hover{
+    color: red;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+ 
+    font-size: 120%;
+}
+.vide video{
+    
+    border: 3px solid aquamarine;
+    padding: 1px 1px 1px 1px;
+    
+}
+.vide{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 70px;
+}
+footer{
+
+    font-size: 15px;
+    text-align: center;
+
+}
+ .vide img{
+    border: 3px solid aquamarine;
+    padding: 1px 1px 1px 1px;
+ }
