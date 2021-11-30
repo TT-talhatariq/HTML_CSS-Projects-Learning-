@@ -1,0 +1,25 @@
+.box{
+    margin:0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    text-align: center;
+    margin: 50px 20px;
+}
+.set{
+    border: 1px skyblue solid;
+    padding: 10px;
+    background-color: skyblue;
+    margin: 8px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+.img{
+    padding-right: 20px;
+    float: left;
+}
+.img1{
+    padding-right: 20px;
+    float: right;
+}
