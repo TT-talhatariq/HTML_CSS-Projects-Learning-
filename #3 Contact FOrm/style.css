@@ -1,0 +1,81 @@
+
+
+
+body {    
+    color: rgb(226, 216, 216);
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url("background.jpg");
+    opacity: 0.9;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+.background{
+    border: 8px rgb(109, 155, 255) solid;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 1px 1px white   ;
+    padding: 60px;
+    padding-top: 50px;
+    
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(41, 38, 38) ;
+}
+.background h1{
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.background p{
+
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+input[type="text"],
+input[type="email"]
+{
+    margin: 20px;
+    background-color:rgb(41, 38, 38) ;;
+
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+}
+input, select, textarea{
+    color:white;
+}
+input:focus{
+    outline: none;
+}
+
+input[type="submit"]
+{
+    background-color:rgb(41, 38, 38)  ;
+    color:white;
+    font-size: 15px;
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    height: 50px;
+    border: 2px white solid;
+
+
+}
+input[type="submit"]:hover{
+    background-color:rgb(109, 155, 255)
+}
