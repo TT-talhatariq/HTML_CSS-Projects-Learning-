@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+.header{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid pink;
+    text-align: center;
+    background-color: pink;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+nav{
+    border: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+   
+
+}
+.sit{
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav a{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 40px;
+    color: whitesmoke;
+}
+

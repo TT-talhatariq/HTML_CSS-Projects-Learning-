@@ -1,0 +1,104 @@
+.form{
+    border: 8px rgb(109, 155, 255) solid;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 1px 1px white   ;
+    padding: 60px;
+    padding-top: 50px;
+    
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+}
+h1{
+
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.txt{
+    margin: 20px;
+    background-color:whitesmoke;
+
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    font-size: 15px;
+    height: 30px;
+    width: 40%;
+}
+
+.txtn{
+    margin: 20px;
+    background-color:whitesmoke;
+
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    font-size: 15px;
+    height: 30px;
+    width: 90%;
+}
+.tag{
+    margin: 0;
+    color: rgb(4, 111, 153);
+    text-align: left;
+    padding-left: 30px;
+}
+.opt{
+    margin: 0;
+    text-align: left;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.pad{
+    margin-top: 20px;
+    padding-left: 0px;
+}
+.optt{
+    margin-top: 40px;
+    text-align: left;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-right: 50px;
+
+    
+}
+.txtx{
+    margin: 0px;
+    background-color:whitesmoke;
+
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    font-size: 15px;
+    height: 30px;
+    width: 75%;
+    clear: left;
+}
+
+input[type="submit"]
+{
+    background-color:rgb(41, 38, 38)  ;
+    color:white;
+    font-size: 20px;
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    height: 50px;
+    border: 2px white solid;
+    background-color: rgb(7, 118, 161);
+
+
+}
+input[type="submit"]:hover{
+    background-color:rgb(109, 155, 255)
+}
