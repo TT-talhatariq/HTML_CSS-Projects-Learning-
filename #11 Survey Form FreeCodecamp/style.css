@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('background-image.jpg') !important;
+   
+    background-size: cover;
+    font-size: 20px;
+    background-attachment:fixed;
+
+}
+header{
+    text-align: center;
+    margin: 2rem;
+    font-weight: bold;
+}
+header p{
+    margin-top: 0;
+}
+header h1{
+    
+    margin-bottom: 0;
+}
+
+#survey-form{
+    background-color: rgba(185, 172, 199, 0.3);
+    padding: 4rem;
+    -webkit-box-shadow: 2px 1px 12px 0px rgba(29,28,30,0.9); 
+    box-shadow: 2px 1px 12px 0px rgba(29,28,30,0.9);    
+    margin: auto;
+    
+    width: max-content;
+    
+}
+.main{
+    font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+button
+{
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;  
+    margin-bottom: 20px;  
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+    width : 20px;
+    height : 20px;
+}
+select{
+    width: 30%;
+    height: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem
+    
+}
+
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+.box{
+    margin-bottom: 20px;
+}
+button{
+    background-color: rgb(66, 197, 123);
+    color: white;
+    font-size: 25px;
+}

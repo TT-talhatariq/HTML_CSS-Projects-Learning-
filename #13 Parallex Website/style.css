@@ -1,0 +1,83 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+ }
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 100%;
+    padding: 0;
+    background-color: whitesmoke;
+    margin: 0;
+    line-height: 1.8    ;
+}
+.pimg1{
+    background-image: url(4.jpg);
+    min-height: 100vh;
+}
+
+.pimg2{
+    background-image: url(1.jpg);
+    min-height: 400px;
+
+}
+
+.pimg3{
+    background-image: url(3.jpg);
+
+    min-height: 400px;
+
+}
+
+.pimg4{
+    background-image: url(2.jpg);
+    min-height: 100vh;
+
+} 
+.pimg1,.pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center  ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-transform: uppercase   ;
+}  
+
+.ptext {
+position: absolute;
+top: 50%;
+font-size: 40px;
+letter-spacing:  5px;       
+width:100%;
+text-align: center  ;
+color:whitesmoke;
+
+}
+.sec h2, .sec p{
+    padding: 10px 20px;
+    text-align: center;
+}
+.sec{
+padding: 4px;
+}
+.ligth{
+    background-color: whitesmoke;
+}
+.dark{
+    background-color: rgb(48, 41, 41);
+    color: white;
+}
+
+.pimg1 .ptext .border,
+.pimg4 .ptext .border{
+    padding: 10px 20px;
+    background-color: rgba(56, 56, 56, 0.8);
+}
+@media all and (max-width:576px) {
+    .pimg1,.pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+  
+    }  
+    
+}

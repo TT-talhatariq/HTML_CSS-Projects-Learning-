@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+
+}
+.nav{
+    border: 1px lightgreen solid;
+    background-color: lightgreen;
+    padding:3%;
+    width: 100px;
+    flex-grow: 3;
+    flex-basis: 0;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.align{
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgb(172, 172, 128);
+    margin: 4%;
+    height: 100px;
+}
+.tag{
+    padding: 3%; 
+    background-color: crimson;
+}
+.tag1{
+    padding: 3%;
+    background-color: wheat;
+    height: 200px;
+}
